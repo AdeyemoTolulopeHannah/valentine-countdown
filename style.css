@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:   hsl(240, 11%, 96%);
+    max-height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+}
+.heading{
+    text-align: center;
+    font-size: 14px;
+    color: hsl(0, 86%, 50%); 
+    font-weight: 700;
+    margin-top: 130px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+#displayDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 86%, 50%);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.days,.hour,.minute,.second{
+    margin: 10px;
+}
+.day,.hours,.minutes,.seconds{
+    padding: 15px;
+    background: hsl(0, 86%, 50%);
+    color: hsl(343, 15%, 91%);
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 1.8em;
+    box-shadow:  0 4px 8px 0 hsl(234, 17%, 12%) , 0 6px 20px 0 hsl(234, 17%, 12%) ;;
+}
+.days h3,.hour h3,.minute h3,.second h3{
+    font-size: 10px;
+    color: hsl(0, 86%, 50%);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.pattern {
+ margin-top: 100px;
+ z-index: -1;
+}
+
